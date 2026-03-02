@@ -17,9 +17,6 @@ class CmsProductSetKeyParameterMapper implements CmsProductSetKeyParameterMapper
      */
     protected $cmsProductSetConnectorQueryContainer;
 
-    /**
-     * @param \Spryker\Zed\CmsContentWidgetProductSetConnector\Persistence\CmsContentWidgetProductSetConnectorQueryContainerInterface $cmsProductSetQueryContainer
-     */
     public function __construct(CmsContentWidgetProductSetConnectorQueryContainerInterface $cmsProductSetQueryContainer)
     {
         $this->cmsProductSetConnectorQueryContainer = $cmsProductSetQueryContainer;

@@ -24,9 +24,6 @@ class CmsProductSetContentWidgetPlugin extends AbstractPlugin implements CmsCont
      */
     protected $widgetConfiguration;
 
-    /**
-     * @param \Spryker\Shared\CmsContentWidget\Dependency\CmsContentWidgetConfigurationProviderInterface $widgetConfiguration
-     */
     public function __construct(CmsContentWidgetConfigurationProviderInterface $widgetConfiguration)
     {
         $this->widgetConfiguration = $widgetConfiguration;
